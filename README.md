@@ -32,6 +32,23 @@ class ="btn"  button 按钮样式
 class ="btn-block" button 属性 ，自动填充按钮至水平，下一块自动换行
 calss ="btn-primary "  自动添加颜色：深蓝色
 class= "btn-info"  浅蓝色
+ #图库
+  Font Awesome  ：图标库 这些图片都是矢量图，以 .svg 文件格式保存
+<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+<i class="fa fa-info-circle"></i> : 指代图标
+  
+ <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i> Like</button>
+    </div>
+    <div class="col-xs-4">
+      <button class="btn btn-block btn-info"><i class ="fa fa-info-circle"></i> info</button>
+    </div>
+    <div class="col-xs-4">
+      <button class="btn btn-block btn-danger"><i class ="fa fa-trash"></i> Delete</button>
+    </div>
+  点赞图标，信息图标，删除图标
+  
+  
+
  
    
   
