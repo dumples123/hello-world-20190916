@@ -53,8 +53,42 @@ class选择器：$(".btn")、
 id选择器：$("#target1")。
 removeClass(" ") 删除样式
 .css(" ")  添加样式
+jQuery有一个.prop()的方法让你来调整元素的属性.
 
+我们是这样来让按钮不可选的:
+
+$("button").prop("disabled", true);
+
+jQuery的.html()方法可以添加HTML标签和文字到元素，而元素之前的内容都会被方法的内容所替换掉。
+
+我们是通过em[emphasize]标签来重写和强调标题文本的：
+
+$("h3").html("<em>jQuery Playground</em>");
+
+jQuery 还有一个类似的方法叫.text()，它只能改变文本但不能修改标记。换句话说，这个方法只会把传进来的任何东西(包括标记)当成文本来显示。
+
+Query 有一个.remove() 的方法可以移除HTML元素
+
+试着使用.remove()方法来移除页面上的target4元素吧.移除整个元素标签
   
+  现在让我们尝试把元素从一个div里移到另外一个div里。
+
+jQuery有一个appendTo()方法可以把选中的元素加到其他元素中。:像剪切一样。
+
+每个HTML元素根据继承属性都有父parent元素。
+
+你可以给目标元素的第三个子元素添加bounce class。
+
+$(".target:nth-child(3)").addClass("animated bounce");
+
+示例：获取class为target且索引为奇数的所有元素，并给他们添加class。
+
+$(".target:odd").addClass("animated shake");
+
+记住，jQuery里的索引是从0开始的，也就是说：:odd 选择第2、4、6个元素，因为target#2(索引为1)，target#4(索引为3)，target6(索引为5
+even:所有偶数
+odd:所有奇数
+
   
 
  
