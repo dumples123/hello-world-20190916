@@ -51,6 +51,8 @@ class= "btn-info"  浅蓝色
 元素选择器：$("button")、
 class选择器：$(".btn")、
 id选择器：$("#target1")。
+removeClass(" ") 删除样式
+.css(" ")  添加样式
 
   
   
