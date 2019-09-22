@@ -46,6 +46,12 @@ class= "btn-info"  浅蓝色
       <button class="btn btn-block btn-danger"><i class ="fa fa-trash"></i> Delete</button>
     </div>
   点赞图标，信息图标，删除图标
+ #Jquery 选择器
+现在你已经了解了3种选择器：
+元素选择器：$("button")、
+class选择器：$(".btn")、
+id选择器：$("#target1")。
+
   
   
 
