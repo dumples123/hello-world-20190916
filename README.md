@@ -92,7 +92,13 @@ odd:所有奇数
 #JavaScript提供七种不同的data types(数据类型)，它们是undefined（未定义）, null（空）, boolean（布尔型）, string（字符串）, symbol(符号), number（数字）, and object（对象）。
   
 
- 
+ 使用 ++ ，我们可以很容易地对变量进行自增或者+1运算。
+
+i++;
+
+等效于
+
+i = i + 1;
    
   
 
