@@ -131,6 +131,33 @@ arr.push(4);
 .push() 接受把一个或多个参数，并把它“推”入到数组的末尾。
 
 .unshift() 函数用起来就像 .push() 函数一样, 但不是在数组的末尾添加元素，而是在数组的头部添加元素。
+function myTest(val) {
+  var answer = "";
+  // 请把你的代码写在这条注释以下
+  switch(val){
+    case 1:
+     answer="alpha";
+      break;
+     case 2:
+        answer="beta";
+      break;
+      case 3:
+         answer="gamma";
+      break;      
+      case  4:
+        answer="delta";
+      break;
+      
+  }
+  
+  
+  // 请把你的代码写在这条注释以上
+  return answer;  
+}
+
+// 你可以修改这一行来测试你的代码
+myTest(1);
+
 
 
 
